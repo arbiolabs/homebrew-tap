@@ -13,7 +13,7 @@ class PrReview < Formula
     system "cargo", "install", *std_cargo_args(path: "tui")
     system "pnpm", "install", "--prod", "--frozen-lockfile"
     libexec.install "bin", "src", "prompts", "protocol", "migrations", "node_modules", "package.json"
-    (bin/"pr-review").write_env_script libexec/"bin/pr-review.mjs", PATH: "#{Formula["node"].opt_bin}:$PATH"
+    (bin/"pr-review").write_env_script libexec/"bin/pr-review.mjs", PATH: "#{formula_opt_bin("node")}:$PATH"
   end
 
   test do
