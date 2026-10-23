@@ -1,6 +1,6 @@
 cask "agents-trace-waterfall" do
-  version "1.2.0"
-  sha256 "57a7a37e9a060b95f17896c16f8b0baf2b43b48f43636e4eb9bccd11895faf6d"
+  version "1.2.1"
+  sha256 "f5d9eee942fedeb0a0b7e08ac0f462080a3b8ed26689e14b5b62d6967ce53600"
 
   url "https://github.com/arbiolabs/agents-trace-waterfall/releases/download/v#{version}/Agents-Trace-Waterfall-#{version}-macos-arm64.zip"
   name "Agents Trace Waterfall"
