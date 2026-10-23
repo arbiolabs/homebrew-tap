@@ -1,8 +1,8 @@
 class AgentsTraceWaterfall < Formula
   desc "Waterfall view of coding-agent sessions: terminal UI and collector"
   homepage "https://github.com/arbiolabs/agents-trace-waterfall"
-  url "https://github.com/arbiolabs/agents-trace-waterfall/releases/download/v1.2.1/agents-trace-waterfall-1.2.1-macos-arm64.tar.gz"
-  sha256 "cebf3d31740cdbcdbe37141f02c7b08a742bdbb57c30783ef5e67510b7b9f1d0"
+  url "https://github.com/arbiolabs/agents-trace-waterfall/releases/download/v1.2.2/agents-trace-waterfall-1.2.2-macos-arm64.tar.gz"
+  sha256 "53c6d29123267032ee3eaa2307cadf84ca18cd4c4773a06d3f194fb111cd7064"
   license "MIT"
 
   depends_on arch: :arm64
