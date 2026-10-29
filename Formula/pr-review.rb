@@ -1,8 +1,8 @@
 class PrReview < Formula
   desc "Reviews GitHub pull requests with a coding agent, with a terminal client"
   homepage "https://github.com/arbiolabs/pr-reviewer-agent"
-  url "https://github.com/arbiolabs/pr-reviewer-agent/archive/refs/tags/v1.4.0.tar.gz"
-  sha256 "e8e2a9c85031d6fa00ddfba8569833cd3112b57bd14ea31800aac24aa0608019"
+  url "https://github.com/arbiolabs/pr-reviewer-agent/archive/refs/tags/v1.7.0.tar.gz"
+  sha256 "a7859b768395a8eb35c833ecdc0ed14e3cbc5e902a19f60c0385bad48a4504b9"
 
   depends_on "pnpm" => :build
   depends_on "rust" => :build
